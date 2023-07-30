@@ -2,11 +2,21 @@ body {
     margin: 0;
 }
 
+.first-p {
+    background-color: #1f2937;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 250px;
+}
+
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #1f2937;
+    margin: 0;
+    padding: 10px 250px;
 }
 
 .navbar-menu {
@@ -25,4 +35,37 @@ body {
     text-decoration: none;
     font-size: 24px;
     color: #f9faf8;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 0;
+    max-width: 400px;
+    line-height: 40px;
+}
+
+.first-p-low {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+}
+
+.first-p-button {
+    background-color: #2563eb;
+    border: 0;
+    color: #f9faf8;
+    padding: 8px 24px;
+    border-radius: 5px;
+    font-size: 16px;
+    max-width: 120px;
+    font-weight: 600;
+}
+
+.container-f-p {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    gap: 15px;
 }
