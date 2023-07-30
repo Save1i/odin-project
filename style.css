@@ -2,6 +2,14 @@ body {
     margin: 0;
 }
 
+h1,
+h2,
+p,
+a,
+button {
+    font-family: "General Sans", sans-serif;
+}
+
 .first-p {
     background-color: #1f2937;
     margin: 0;
@@ -27,13 +35,14 @@ body {
 
 .navbar-menu a {
     text-decoration: none;
-    color: #e5e7eb;
+    color: #e5e7ebdb;
     font-size: 18px;
 }
 
 .header-logo {
     text-decoration: none;
     font-size: 24px;
+    font-weight: 600;
     color: #f9faf8;
 }
 
