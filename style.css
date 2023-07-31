@@ -157,6 +157,48 @@ h1 {
     margin-right: 50px;
 }
 
+.fourth-page {
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-fourth-p {
+    width: 1080px;
+    height: 150px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-fourth-p button {
+    background-color: #3882f6;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+    border-style: solid;
+    height: 30px;
+    width: 100px;
+    font-weight: 600;
+}
+
+.main {
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 0;
+}
+
+.nomain {
+    font-size: 16px;
+    font-weight: 200;
+    color: white;
+    margin-top: 0;
+}
+
 .footer {
     background-color: #1f2937;
     height: 100px;
